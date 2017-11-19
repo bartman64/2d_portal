@@ -5,3 +5,9 @@ gravity_ = .5;
 acceleration_ = 1;
 friction_ = .3;
 jump_height_ = -10;
+
+
+//Scale variables
+
+x_scale_ = image_xscale;
+y_scale_ = image_yscale; 
