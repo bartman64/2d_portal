@@ -91,7 +91,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/spr_bullet\/spr_bullet.yy",
+                "resourcePath": "sprites\/spr_blue_bullet\/spr_blue_bullet.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -110,7 +110,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\/obj_bullet\/obj_bullet.yy",
+                "resourcePath": "objects\/obj_blue_bullet\/obj_blue_bullet.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -191,6 +191,25 @@
             }
         },
         {
+            "Key": "3f2bc001-0d6d-4fd5-928a-8b5f65dfa154",
+            "Value": {
+                "id": "9022f592-f383-43d4-9064-b0400645cc39",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_orange_bullet\/obj_orange_bullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "54abfb25-5509-42cf-83fd-be334689c5bb",
             "Value": {
                 "id": "206659dc-4494-4426-8c8b-d4e45ac4691d",
@@ -264,6 +283,25 @@
                 ],
                 "resourcePath": "views\/73278ccd-8be9-4146-b728-81423cf81243.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "764fe865-b123-4e93-8f66-544b6c776f2e",
+            "Value": {
+                "id": "c4bbad51-0357-46fd-8ab0-e59c0250a90d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_orange_bullet\/spr_orange_bullet.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
