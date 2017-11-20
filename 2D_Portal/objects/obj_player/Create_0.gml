@@ -14,3 +14,6 @@ alarm[0] = bullet_cooldown_;
 
 x_scale_ = image_xscale;
 y_scale_ = image_yscale; 
+
+hit_x_ = 0;
+hit_y_ = 0;
