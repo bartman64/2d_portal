@@ -14,9 +14,9 @@ if(obj_orange_portal.image_horizontal_ = 0){
 
 if(obj_orange_portal.image_horizontal_ = 1){
 	if(obj_orange_portal.v_orientation_ = up_open){
-			y = obj_orange_portal.y - sprite_height;
+			y = obj_orange_portal.y - sprite_height - 5;
 	} else if(obj_orange_portal.v_orientation_ = down_open){
-			y = obj_orange_portal.y + sprite_height;
+			y = obj_orange_portal.y + sprite_height + 5;
 	}
 } else {
 	y = obj_orange_portal.y + sprite_height/2;
