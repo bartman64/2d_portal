@@ -5,6 +5,7 @@ gravity_ = .5;
 acceleration_ = 1;
 friction_ = .3;
 jump_height_ = -10;
+max_fall_speed_ = 12;
 
 
 //Scale variables
