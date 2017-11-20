@@ -343,6 +343,44 @@
             }
         },
         {
+            "Key": "a8cf14d9-5b75-441c-a7ef-2078086530a7",
+            "Value": {
+                "id": "29a812fc-5f3b-45d6-b08b-1171c4d39c11",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_blue_portal\/obj_blue_portal.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ab7875bd-911a-4b1c-8326-f2d8fc1eea75",
+            "Value": {
+                "id": "f831f6bc-6dd5-4ddd-b5e9-a9443d1cc2bf",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_orange_portal\/spr_orange_portal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "accbbe46-c3d7-4ed4-b8fa-53998a1f01bc",
             "Value": {
                 "id": "94257471-8273-4860-8fcc-337ea0946657",
@@ -438,6 +476,25 @@
             }
         },
         {
+            "Key": "d85008d1-d44b-41b7-bea0-31522d10d381",
+            "Value": {
+                "id": "08acb892-e057-455a-9cca-838757f99bea",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_blue_portal\/spr_blue_portal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e2bd9cbe-fd22-47de-b821-f5c50e1cb021",
             "Value": {
                 "id": "4efae6e2-25b0-4fdb-90bf-ed53b770ee95",
@@ -454,6 +511,25 @@
                 ],
                 "resourcePath": "rooms\/room0\/room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "e534e58a-b31c-4787-b7a8-451a34aa8c6d",
+            "Value": {
+                "id": "e6fa3824-dd06-4294-ba43-f98ef63a4ec4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_orange_portal\/obj_orange_portal.yy",
+                "resourceType": "GMObject"
             }
         },
         {
