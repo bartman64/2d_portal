@@ -15,7 +15,7 @@ var box_border_offset;
 with(other){
 	solid_x = x;
 	solid_y = y;
-	box_border_offset = sprite_height/2
+	box_border_offset = sprite_height/2;
 	
 }
 //boolean variable indicating if the y coordinate of the bullet is between the lowest and highest point of the solid_obj

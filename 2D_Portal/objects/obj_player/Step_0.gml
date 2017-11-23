@@ -36,10 +36,16 @@ if(!place_meeting(x,y+1,obj_solid)){
 move(speed_);
 
 //Check for landing image_scale
-if(place_meeting(x, y + 1, obj_solid) && !place_meeting(x, yprevious + 1 , obj_solid)){
-		x_scale_ = image_xscale * 1.4;
-		y_scale_ = image_yscale * .8;
+if(!place_meeting(x, y + 1, obj_blue_portal) && 
+!place_meeting(x, yprevious + speed_[v] , obj_blue_portal) && 
+!place_meeting(x, y + 1, obj_orange_portal) &&
+!place_meeting(x, yprevious + speed_[v] , obj_orange_portal)){
+	if(place_meeting(x, y + 1, obj_solid) && !place_meeting(x, yprevious + 1 , obj_solid)){
+			x_scale_ = image_xscale * 1.4;
+			y_scale_ = image_yscale * .8;
+	}	
 }
+
 
 //Move back to normal scale
 x_scale_ = lerp(x_scale_, image_xscale, .1);

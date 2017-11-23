@@ -5,7 +5,7 @@ gravity_ = .5;
 acceleration_ = 1;
 friction_ = .3;
 jump_height_ = -10;
-max_fall_speed_ = 20;
+max_fall_speed_ = 30;
 bullet_cooldown_ = room_speed/6;
 
 alarm[0] = bullet_cooldown_;
