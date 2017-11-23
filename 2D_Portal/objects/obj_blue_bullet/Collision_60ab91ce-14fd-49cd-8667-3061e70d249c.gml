@@ -46,17 +46,17 @@ else if (x > solid_x + box_border_offset && collisionBetweenBoxCorners_height)
 {	
 	with(other){
 		obj_player.hit_x_ = x + box_border_offset;
-		obj_player.hit_y_ = y
+		obj_player.hit_y_= y
 	}	
 }
 
 else if (y < solid_y  - box_border_offset && collisionBetweenBoxCorners_width)
 {
-		with(other){
-			obj_player.hit_x_ = x ;
-			obj_player.hit_y_ = y - box_border_offset;
-		}		
-		portal_orientation = 90;
+	with(other){
+		obj_player.hit_x_ = x ;
+		obj_player.hit_y_ = y - box_border_offset;
+	}		
+	portal_orientation = 90;
 }
 
 instance_destroy();
