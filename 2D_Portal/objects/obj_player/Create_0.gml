@@ -7,6 +7,7 @@ friction_ = .3;
 jump_height_ = -10;
 max_fall_speed_ = 30;
 bullet_cooldown_ = room_speed/6;
+old_fallSpeed = 0;
 
 alarm[0] = bullet_cooldown_;
 
@@ -18,3 +19,5 @@ y_scale_ = image_yscale;
 
 hit_x_ = 0;
 hit_y_ = 0;
+
+wentThroughPortal = 0;
