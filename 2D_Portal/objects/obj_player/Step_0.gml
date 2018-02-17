@@ -4,7 +4,7 @@
 
 //horizontal keyboard input
 var hinput = keyboard_check(ord("D")) - keyboard_check(ord("A"));
-
+var bbox_side;
 //Bullet time during falling
 if(keyboard_check(ord("E"))){
 	if(old_fallSpeed == 0){
@@ -31,6 +31,10 @@ if hinput != 0 {
 	image_index = 0;
 }
 
+
+
+move(speed_);
+
 //jumping
 if(!place_meeting(x,y+1,obj_solid)){
 	if(speed_[v] >= max_fall_speed_){
@@ -39,7 +43,7 @@ if(!place_meeting(x,y+1,obj_solid)){
 		speed_[v] += gravity_;
 	}
 		image_speed = 0;
-		image_index = 6;
+		image_index = 4;
 	
 } else {
 	if(keyboard_check_pressed(vk_space)){
@@ -51,7 +55,6 @@ if(!place_meeting(x,y+1,obj_solid)){
 
 
 
-move(speed_);
 
 var notFallingIntoPortals = !place_meeting(x, y + 1, obj_blue_portal) && !place_meeting(x, yprevious + speed_[v] , obj_blue_portal) && 
 							!place_meeting(x, y + 1, obj_orange_portal) &&!place_meeting(x, yprevious + speed_[v] , obj_orange_portal)
@@ -69,3 +72,5 @@ if(notFallingIntoPortals){
 //Move back to normal scale
 x_scale_ = lerp(x_scale_, image_xscale, .1);
 y_scale_ = lerp(y_scale_, image_yscale, .1);
+
+

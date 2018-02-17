@@ -1,12 +1,13 @@
 /// @description Create variables
 speed_ = [0, 0];
-max_speed_ = 4;
-gravity_ = .5;
+max_speed_ = 2;
+gravity_ = .3;
 acceleration_ = 1;
 friction_ = .3;
-jump_height_ = -10;
+jump_height_ = -4.5;
 max_fall_speed_ = 30;
 bullet_cooldown_ = room_speed/6;
+press_cooldown_ = room_speed/2;
 old_fallSpeed = 0;
 
 alarm[0] = bullet_cooldown_;

@@ -12,9 +12,13 @@ var box_border_offset;
 
 //Getting the x, y coordinate and box offset of the solid_obj
 with(other){
-	solid_x = x;
-	solid_y = y;
+	solid_x = x + sprite_height/2;
+	show_debug_message(x);
+	show_debug_message(solid_x);
+	solid_y = y + sprite_height/2;
 	box_border_offset = sprite_height/2;
+	show_debug_message(y);
+	show_debug_message(solid_y);
 	
 }
  
@@ -61,5 +65,10 @@ if (round(y) < (solid_y  - box_border_offset) && collisionBetweenBoxCorners_widt
 
 }
 
+obj_player.hit_x_  += 16;
+obj_player.hit_y_  += 16;
+
+show_debug_message(obj_player.hit_x_);
+show_debug_message(obj_player.hit_y_);
 
 instance_destroy();

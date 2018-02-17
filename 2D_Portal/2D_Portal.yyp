@@ -39,9 +39,9 @@
     },
     "resources": [
         {
-            "Key": "073b492c-f2c2-4a49-944f-65c457eff028",
+            "Key": "03d4d067-71a9-4f76-9053-84afe301be9f",
             "Value": {
-                "id": "2833a3c3-8e10-47a5-b249-3aa79bc40b4f",
+                "id": "13b2f242-c92a-4e5e-9080-f0b27b605bf7",
                 "modelName": "GMResourceInfo",
                 "mvc": "1.0",
                 "configDeltaFiles": [
@@ -53,8 +53,8 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "rooms\/Game\/Game.yy",
-                "resourceType": "GMRoom"
+                "resourcePath": "tilesets\/tileset0\/tileset0.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -533,6 +533,44 @@
             }
         },
         {
+            "Key": "a5592576-7d07-4e4d-a23d-a3924e378865",
+            "Value": {
+                "id": "c8236911-f9aa-4596-b873-78bb9c3a9ee5",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_tileset\/spr_tileset.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a728da80-07e9-43dd-9f39-d6ea780e0623",
+            "Value": {
+                "id": "2d4aaf06-deba-4bba-af33-a0072921873b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/room1\/room1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "a8cf14d9-5b75-441c-a7ef-2078086530a7",
             "Value": {
                 "id": "29a812fc-5f3b-45d6-b08b-1171c4d39c11",
@@ -701,25 +739,6 @@
                 ],
                 "resourcePath": "sprites\/spr_blue_portal\/spr_blue_portal.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "e2bd9cbe-fd22-47de-b821-f5c50e1cb021",
-            "Value": {
-                "id": "4efae6e2-25b0-4fdb-90bf-ed53b770ee95",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "rooms\/TestRoom\/TestRoom.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
