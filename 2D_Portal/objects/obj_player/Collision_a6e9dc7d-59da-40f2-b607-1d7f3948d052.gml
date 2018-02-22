@@ -22,3 +22,4 @@ if(instance_exists(obj_orange_portal)){
 		y = obj_orange_portal.y + sprite_height/2 - 2;
 	}
 }
+

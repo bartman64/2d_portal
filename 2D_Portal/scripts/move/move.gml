@@ -3,7 +3,7 @@
 var speed_ = argument0;
 
 if place_meeting(x+speed_[h], y, obj_solid) {
-	while !place_meeting(x + sign(speed_[h]), y, obj_solid) 
+	while !place_meeting(x + sign(speed_[h]), y, obj_solid)
 	{
 		x += sign(speed_[h]);
 	}

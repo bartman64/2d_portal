@@ -43,7 +43,7 @@ if(!place_meeting(x,y+1,obj_solid)){
 		speed_[v] += gravity_;
 	}
 		image_speed = 0;
-		image_index = 4;
+		image_index = 3;
 	
 } else {
 	if(keyboard_check_pressed(vk_space)){

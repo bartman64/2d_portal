@@ -6,7 +6,7 @@ acceleration_ = 1;
 friction_ = .3;
 jump_height_ = -4.5;
 max_fall_speed_ = 30;
-bullet_cooldown_ = room_speed/6;
+bullet_cooldown_ = room_speed/2;
 press_cooldown_ = room_speed/2;
 old_fallSpeed = 0;
 
