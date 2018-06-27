@@ -2,6 +2,7 @@
 ///@param bounce
 var speed_ = argument0;
 
+
 if place_meeting(x+speed_[h], y, obj_solid) {
 	while !place_meeting(x + sign(speed_[h]), y, obj_solid)
 	{
@@ -13,7 +14,7 @@ if place_meeting(x+speed_[h], y, obj_solid) {
 x += speed_[h];
 
 var notFallingIntoPortals = !place_meeting(x, y + 1, obj_blue_portal) && !place_meeting(x, yprevious + speed_[v] , obj_blue_portal) && 
-							!place_meeting(x, y + 1, obj_orange_portal) &&!place_meeting(x, yprevious + speed_[v] , obj_orange_portal)
+							!place_meeting(x, y + 1, obj_orange_portal) && !place_meeting(x, yprevious + speed_[v] , obj_orange_portal)
 
 
 if place_meeting(x, y+speed_[v], obj_solid) {

@@ -1,58 +1,16 @@
-/// @description Movement
+/// @description 
+
+event_user(MOVEMENT_);
 
 
-
-//horizontal keyboard input
-var hinput = keyboard_check(ord("D")) - keyboard_check(ord("A"));
-var bbox_side;
-//Bullet time during falling
-if(keyboard_check(ord("E"))){
-	if(old_fallSpeed == 0){
-		old_fallSpeed = speed_[v];	
-	}
-			speed_[v] = lerp(speed_[v], 0.2, 0.9);
-			hinput = 0;
-}
-if(keyboard_check_released(ord("E"))) {
-	speed_[v] = old_fallSpeed;
-	old_fallSpeed = 0;
-}
-
-
-if hinput != 0 {
-	speed_[h] += hinput*acceleration_;
-	speed_[h] = clamp(speed_[h], -max_speed_, max_speed_);
-
-	var flipped = (mouse_x > x) * 2 - 1;
-	image_speed = flipped * hinput *.6;
-} else {
-	speed_[h] = lerp(speed_[h], 0, friction_);	
-	image_speed = 0;
-	image_index = 0;
-}
-
-
-
-move(speed_);
-
-//jumping
 if(!place_meeting(x,y+1,obj_solid)){
-	if(speed_[v] >= max_fall_speed_){
-		speed_[v] = max_fall_speed_;	
-	} else {
-		speed_[v] += gravity_;
-	}
-		image_speed = 0;
-		image_index = 3;
+	event_user(FALLING_);
 	
 } else {
-	if(keyboard_check_pressed(vk_space)){
-		speed_[v] = jump_height_;	
-		x_scale_ = image_xscale * .8;
-		y_scale_ = image_yscale * 1.4;
-	} 
+	if(keyboard_check_pressed(vk_space)) {
+		event_user(JUMPING_);
+	}
 }
-
 
 
 
@@ -66,6 +24,16 @@ if(notFallingIntoPortals){
 			x_scale_ = image_xscale * 1.4;
 			y_scale_ = image_yscale * .8;
 	}	
+}
+
+if(holdingItem_) {
+	if(keyboard_check_pressed(ord("E"))) {
+		obj_cube.y = y - (spr_player.sprite_height/2);
+		obj_cube.x = x + 16*((mouse_x > x) * 2 - 1);
+		
+		holdingItem_ = false;
+		alarm[0] = pickup_cooldown_;
+	}
 }
 
 
