@@ -29,8 +29,7 @@ if(notFallingIntoPortals){
 if(holdingItem_) {
 	if(keyboard_check_pressed(ord("E"))) {
 		obj_cube.y = y - (spr_player.sprite_height/2);
-		obj_cube.x = x + 16*((mouse_x > x) * 2 - 1);
-		
+		obj_cube.x = x + 16*((mouse_x > x) * 2 - 1);		
 		holdingItem_ = false;
 		alarm[0] = pickup_cooldown_;
 	}
