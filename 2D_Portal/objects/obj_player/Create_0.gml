@@ -30,5 +30,9 @@ JUMPING_ = 1;
 FALLING_ = 2;
 
 
+instance_create_layer(x - 4, y - sprite_height/2 + 1, "item_layer", obj_pointer);
+	
+	
+
 
 

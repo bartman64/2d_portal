@@ -8,4 +8,5 @@ var flipped = (mouse_x > x) * 2 - 1;
 draw_sprite_ext(spr_player, image_index, x, ceil(y), x_scale_ * flipped, y_scale_, 0, image_blend, image_alpha);
 
 //draw gun
-//draw_sprite_ext(spr_gun, 0, x - flipped*4, y - sprite_height/2 + 1, 1, flipped, gun_direction, image_blend, image_alpha);
+//raw_sprite_ext(spr_gun, 0, x - flipped*4, y - sprite_height/2 + 1, 1, flipped, gun_direction, image_blend, image_alpha);
+//draw_sprite_ext(spr_pointer, 0, x - flipped*4, y - sprite_height/2 + 1, 1, flipped, gun_direction, image_blend, image_alpha);
