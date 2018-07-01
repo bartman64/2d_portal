@@ -1,6 +1,6 @@
 /// @description Create variables
 
-speed  = 6;
+speed  = 12;
 depth = -1;
 
 portal_orientation = 0;

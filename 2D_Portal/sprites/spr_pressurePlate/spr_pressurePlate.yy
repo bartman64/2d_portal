@@ -9,7 +9,7 @@
     "bbox_bottom": 31,
     "bbox_left": 1,
     "bbox_right": 30,
-    "bbox_top": 24,
+    "bbox_top": 25,
     "bboxmode": 2,
     "colkind": 1,
     "coltolerance": 0,
@@ -60,8 +60,8 @@
             ]
         }
     ],
-    "gridX": 0,
-    "gridY": 0,
+    "gridX": 1,
+    "gridY": 1,
     "height": 32,
     "layers": [
         {
