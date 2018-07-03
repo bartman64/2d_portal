@@ -324,6 +324,25 @@
             }
         },
         {
+            "Key": "5ca23f4d-ee8b-42e2-b971-f546b75f4a79",
+            "Value": {
+                "id": "e36a208c-c3a1-4798-919c-cda660641d46",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_spr_destroyWall\/obj_spr_destroyWall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5ff45169-7bba-4e90-bc94-af96fafffb1e",
             "Value": {
                 "id": "43ea758e-911c-4ffe-a227-5d1c6c37c3cc",
@@ -948,6 +967,25 @@
                 ],
                 "resourcePath": "scripts\/move\/move.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "fdc015c1-1c84-4f91-b5c8-51a04d590a28",
+            "Value": {
+                "id": "17c35e98-3c62-48eb-873e-41d4e5190f0d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_destroyWall\/spr_destroyWall.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
