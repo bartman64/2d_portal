@@ -26,9 +26,16 @@ if(notFallingIntoPortals){
 	}	
 }
 
-if(holdingItem_) {
-	if(keyboard_check_pressed(ord("E"))) {		
-		holdingItem_ = false;
+
+if(pickupItemId_ != "") {
+	with (pickupItemId_) {
+		pickedUp_ = true;	
+	}
+	if(keyboard_check_pressed(ord("E"))) {
+		with (pickupItemId_) {
+			pickedUp_ = false;	
+		}
+		pickupItemId_ = "";
 		alarm[0] = pickup_cooldown_;
 	}
 }

@@ -22,7 +22,8 @@ hit_x_ = 0;
 hit_y_ = 0;
 
 wentThroughPortal = 0;
-holdingItem_ = false;
+
+pickupItemId_ = "";
 
 MOVEMENT_ = 0;
 JUMPING_ = 1;

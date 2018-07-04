@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(obj_player.holdingItem_) {
+if(pickedUp_) {
 	var gun_direction = point_direction(obj_player.x, obj_player.y - spr_player.sprite_height/2, mouse_x, mouse_y);
 	var flipped = (mouse_x > obj_player.x) * 2 - 1;
 	if(gun_direction  < 330 && gun_direction > 270) {
