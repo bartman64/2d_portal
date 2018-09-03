@@ -26,3 +26,8 @@ if(pickedUp_) {
 
 	move(speed_);
 }
+
+if(thrown_)
+{
+	event_user(THROWN_);
+}
